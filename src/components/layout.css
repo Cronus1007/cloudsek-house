@@ -4,9 +4,8 @@
 }
 
 .grid-container {
-    display: grid;
-    place-items: center;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    display: flex;
+    justify-content: center;
     padding: 10px;
 }
 
@@ -16,6 +15,7 @@
     width: 200px;
     height: 50px;
     border: 1px solid #ccc;
+    padding: 10px;
 }
 
 .dropdown {
