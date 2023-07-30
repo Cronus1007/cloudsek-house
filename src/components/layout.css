@@ -31,3 +31,8 @@
 .container {
     margin: 3%;
 }
+.new-content {
+    margin: 3%;
+    color: green;
+    text-align: center;
+}

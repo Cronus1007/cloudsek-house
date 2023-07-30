@@ -17,9 +17,7 @@ export default function DropdownButton({menuItems, handleUpdateMenuItems, i, j})
   };
 
   const handleMenuItemClick = (item) => {
-    if(item.id == 4 || item.id == 5){
-    }
-    handleUpdateMenuItems(item)
+    handleUpdateMenuItems(item,i,j)
     setSelectedValue(item);
     setAnchorEl(null);
   };
