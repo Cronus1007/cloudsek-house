@@ -1,0 +1,13 @@
+.home {
+    text-align: center;
+    margin: 5%;
+}
+.layout-button {
+    margin-left: 10%;
+}
+
+.textField {
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+}
